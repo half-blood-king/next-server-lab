@@ -8,6 +8,14 @@ export const DEMOS = [
     hue: 190,
   },
   {
+    href: '/parallel',
+    short: 'Parallel',
+    title: 'Sequential vs parallel fetching',
+    blurb: 'The same four backend calls, awaited one by one and then with Promise.all. Two timelines show where the time goes.',
+    tag: 'async RSC · Promise.all',
+    hue: 220,
+  },
+  {
     href: '/actions',
     short: 'Actions',
     title: 'Server Actions poll',

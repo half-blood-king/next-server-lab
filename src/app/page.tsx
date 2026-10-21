@@ -13,7 +13,7 @@ export default async function Home() {
           What the <span>server</span> can do.
         </h1>
         <p className="lede">
-          Five small working demos of rendering on the server, streaming, mutations without APIs, live data and
+          Six small working demos of rendering on the server, streaming, mutations without APIs, live data and
           cached regeneration. Each page is a few dozen lines you can read in a minute.
         </p>
         <div className="req">

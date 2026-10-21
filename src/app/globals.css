@@ -365,6 +365,13 @@ h1 {
   }
 }
 
+.card-title .total {
+  float: right;
+  font-family: var(--font-mono), monospace;
+  color: var(--text);
+  letter-spacing: 0;
+}
+
 /* Poll */
 .poll {
   display: flex;
