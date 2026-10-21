@@ -1,0 +1,42 @@
+export const DEMOS = [
+  {
+    href: '/streaming',
+    short: 'Streaming',
+    title: 'Streaming with Suspense',
+    blurb: 'Three slow server components stream in out of order over one HTTP response. A waterfall shows when each one arrived.',
+    tag: 'RSC · Suspense',
+    hue: 190,
+  },
+  {
+    href: '/actions',
+    short: 'Actions',
+    title: 'Server Actions poll',
+    blurb: 'Votes go through a Server Action with optimistic UI, form state, cookies and path revalidation, with no API route.',
+    tag: 'useOptimistic · useActionState',
+    hue: 280,
+  },
+  {
+    href: '/live',
+    short: 'Live',
+    title: 'Live market over SSE',
+    blurb: 'A Route Handler streams Server-Sent Events from a ReadableStream, and a canvas chart draws ticks as they arrive.',
+    tag: 'Route Handler · ReadableStream',
+    hue: 150,
+  },
+  {
+    href: '/isr',
+    short: 'ISR',
+    title: 'Incremental regeneration',
+    blurb: 'A cached page that regenerates every 20 seconds, plus a button to revalidate it on demand.',
+    tag: 'revalidate · revalidatePath',
+    hue: 35,
+  },
+  {
+    href: '/og-studio',
+    short: 'OG',
+    title: 'OG image studio',
+    blurb: 'Social cards generated on the fly from JSX with next/og. Type a title and pick a theme.',
+    tag: 'ImageResponse · Edge',
+    hue: 340,
+  },
+] as const;
